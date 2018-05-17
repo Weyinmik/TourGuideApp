@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#006400</color>
+    <color name="colorPrimaryDark">#556B2F</color>
+    <color name="colorAccent">#DC143C</color>
+
+
+    <!-- Background color for app -->
+    <color name="tour_background">#F0FFF0</color>
+
+    <!-- Background color for the Discover category -->
+    <color name="category_discover">#008080</color>
+
+    <!-- Background color for the herten companies category -->
+    <color name="category_companies">#FF6347</color>
+
+    <!-- Background color for the hotels category -->
+    <color name="category_hotels">#00FF7F</color>
+
+    <!-- Background color for the restaurant category -->
+    <color name="category_restaurant">#B22222</color>
+
+    <!-- Background color for the sport category -->
+    <color name="category_sport">#3CB371</color>
 </resources>

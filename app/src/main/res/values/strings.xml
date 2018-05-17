@@ -1,3 +1,20 @@
 <resources>
+    <!-- Title for the application. -->
     <string name="app_name">Tour Guide App</string>
+
+
+    <!-- Category for Discover Herten. -->
+    <string name="category_discover_herten">Discover Herten, Germany</string>
+
+    <!-- Category for Companies in Herten -->
+    <string name="category_companies">Companies</string>
+
+    <!-- Category for Hotels in Herten -->
+    <string name="category_hotels">Hotels</string>
+
+    <!-- Category for Restaurants in Herten -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category for Sport in Herten -->
+    <string name="category_sport">Sport</string>
 </resources>

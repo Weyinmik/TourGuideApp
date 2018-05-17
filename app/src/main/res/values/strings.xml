@@ -5,16 +5,28 @@
 
     <!-- Category for Discover Herten. -->
     <string name="category_discover_herten">Discover Herten, Germany</string>
+    <!-- Title for DiscoverActivity -->
+    <string name="title_discover">Discover Herten</string>
 
     <!-- Category for Companies in Herten -->
     <string name="category_companies">Companies</string>
+    <!-- Title for CompanyActivity -->
+    <string name="title_companies">Companies in Herten</string>
 
     <!-- Category for Hotels in Herten -->
     <string name="category_hotels">Hotels</string>
+    <!-- Title for HotelsActivity -->
+    <string name="title_hotels">Hotels in Herten</string>
 
     <!-- Category for Restaurants in Herten -->
     <string name="category_restaurants">Restaurants</string>
+    <!-- Title for RestaurantsActivity -->
+    <string name="title_restaurants">Restaurants in Herten</string>
 
     <!-- Category for Sport in Herten -->
     <string name="category_sport">Sport</string>
+    <!-- Title for SportActivity -->
+    <string name="title_sport">Sport and Leisure in Herten</string>
+
+
 </resources>

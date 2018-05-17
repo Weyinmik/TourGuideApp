@@ -9,31 +9,31 @@
 
     <TextView
         android:id="@+id/discover_herten"
-        style="@style/CategoryStyle"
+        style="@style/CategoryTourStyle"
         android:background="@color/category_discover"
         android:text="@string/category_discover_herten" />
 
     <TextView
         android:id="@+id/sport"
-        style="@style/CategoryStyle"
+        style="@style/CategoryTourStyle"
         android:background="@color/category_sport"
         android:text="@string/category_sport" />
 
     <TextView
         android:id="@+id/companies"
-        style="@style/CategoryStyle"
+        style="@style/CategoryTourStyle"
         android:background="@color/category_companies"
         android:text="@string/category_companies" />
 
     <TextView
         android:id="@+id/hotels"
-        style="@style/CategoryStyle"
+        style="@style/CategoryTourStyle"
         android:background="@color/category_hotels"
         android:text="@string/category_hotels" />
 
     <TextView
         android:id="@+id/restaurants"
-        style="@style/CategoryStyle"
+        style="@style/CategoryTourStyle"
         android:background="@color/category_restaurant"
         android:text="@string/category_restaurants" />
 

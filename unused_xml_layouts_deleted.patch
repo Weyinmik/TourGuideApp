@@ -1,0 +1,56 @@
+Index: app/src/main/res/layout/activity_discover.xml
+===================================================================
+--- app/src/main/res/layout/activity_discover.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
++++ app/src/main/res/layout/activity_discover.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".DiscoverActivity">
+-
+-</android.support.constraint.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_hotels.xml
+===================================================================
+--- app/src/main/res/layout/activity_hotels.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
++++ app/src/main/res/layout/activity_hotels.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".HotelsActivity">
+-
+-</android.support.constraint.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_restaurants.xml
+===================================================================
+--- app/src/main/res/layout/activity_restaurants.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
++++ app/src/main/res/layout/activity_restaurants.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".RestaurantsActivity">
+-
+-</android.support.constraint.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_sport.xml
+===================================================================
+--- app/src/main/res/layout/activity_sport.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
++++ app/src/main/res/layout/activity_sport.xml	(revision d440120cdcb3f0828cff18f0b9c20bc3b930dc35)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:tools="http://schemas.android.com/tools"
+-    android:layout_width="match_parent"
+-    android:layout_height="match_parent"
+-    tools:context=".SportActivity">
+-
+-</android.support.constraint.ConstraintLayout>
+\ No newline at end of file

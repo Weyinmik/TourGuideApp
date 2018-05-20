@@ -25,7 +25,7 @@ public class CompanyActivity extends AppCompatActivity {
         tours.add ( new Tour ( "Autohaus Blendorf GmbH Mazda", "Schlägel-und-Eisen-Straße 36, 45701 Herten" ) );
         tours.add ( new Tour ( "Imperial Industrial Logistics GmbH", "Carl-Bosch-Straße 2-6, 45699 Herten" ) );
         tours.add ( new Tour ( "Klaeser Internationale Fachspedition und Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten" ) );
-        tours.add ( new Tour ( "Dataserv GmbH", "Hohewardstraße 329, 45699 Herten" ) );
+        tours.add ( new Tour ( "Hertener Stadtwerke GmbH", "Herner Str. 21, 45699 Herten" ) );
         tours.add ( new Tour ( "Herta GmbH", "Westerholter Str. 750, 45701 Herten" ) );
         tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten" ) );
         tours.add ( new Tour ( "ISRA Surface Vision GmbH", "Albert-Einstein-Allee 36-40, 45699 Herten" ) );

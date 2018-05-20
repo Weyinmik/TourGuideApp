@@ -19,16 +19,12 @@ public class HotelsActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "PROSOZ Herten GmbH", "Ewaldstraße 261, 45699 Herten" ) );
-        tours.add ( new Tour ( "Johrendt-Bautenschutz GmbH", "Grimmstraße 6, 45701 Herten" ) );
-        tours.add ( new Tour ( "Spedition Wilhelm Mazurek GmbH", "Industriestraße 12B, 45699 Herten" ) );
-        tours.add ( new Tour ( "Autohaus Blendorf GmbH Mazda", "Schlägel-und-Eisen-Straße 36, 45701 Herten" ) );
-        tours.add ( new Tour ( "Imperial Industrial Logistics GmbH", "Carl-Bosch-Straße 2-6, 45699 Herten" ) );
-        tours.add ( new Tour ( "Klaeser Internationale Fachspedition und Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten" ) );
-        tours.add ( new Tour ( "Dataserv GmbH", "Hohewardstraße 329, 45699 Herten" ) );
-        tours.add ( new Tour ( "Herta GmbH", "Westerholter Str. 750, 45701 Herten" ) );
-        tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten" ) );
-        tours.add ( new Tour ( "ISRA Surface Vision GmbH", "Albert-Einstein-Allee 36-40, 45699 Herten" ) );
+        tours.add ( new Tour ( "Hotel Schloss Westerholt", "Schloßstraße 1, 45701 Herten" ) );
+        tours.add ( new Tour ( "ibis Styles Hotel Herten", "Resser Weg 36, 45699 Herten" ) );
+        tours.add ( new Tour ( "Hotel Alt Westerholt", "Schloßstraße 16, 45701 Herten" ) );
+        tours.add ( new Tour ( "Gasthof Altes Dorf Inh. Christian Lippemeier", "Schloßstraße 15, 45701 Herten" ) );
+        tours.add ( new Tour ( "Hotel Fousek", "Geschwisterstraße 47, 45701 Herten" ) );
+
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
         TourAdapter adapter =

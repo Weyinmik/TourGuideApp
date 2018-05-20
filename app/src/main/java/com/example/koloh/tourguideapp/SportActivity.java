@@ -19,16 +19,12 @@ public class SportActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "PROSOZ Herten GmbH", "Ewaldstraße 261, 45699 Herten" ) );
-        tours.add ( new Tour ( "Johrendt-Bautenschutz GmbH", "Grimmstraße 6, 45701 Herten" ) );
-        tours.add ( new Tour ( "Spedition Wilhelm Mazurek GmbH", "Industriestraße 12B, 45699 Herten" ) );
-        tours.add ( new Tour ( "Autohaus Blendorf GmbH Mazda", "Schlägel-und-Eisen-Straße 36, 45701 Herten" ) );
-        tours.add ( new Tour ( "Imperial Industrial Logistics GmbH", "Carl-Bosch-Straße 2-6, 45699 Herten" ) );
-        tours.add ( new Tour ( "Klaeser Internationale Fachspedition und Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten" ) );
-        tours.add ( new Tour ( "Dataserv GmbH", "Hohewardstraße 329, 45699 Herten" ) );
-        tours.add ( new Tour ( "Herta GmbH", "Westerholter Str. 750, 45701 Herten" ) );
-        tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten" ) );
-        tours.add ( new Tour ( "ISRA Surface Vision GmbH", "Albert-Einstein-Allee 36-40, 45699 Herten" ) );
+        tours.add ( new Tour ( "Hike in Hoheward – Gipfel Hoheward Loop from Herten-Süd-West", "Intermediate Hiking Tour. Good fitness required. Easily-accessible paths. Suitable for all skill levels." ) );
+        tours.add ( new Tour ( "You and your Dog around Herten", "Have a great time around Herten in a secure and free environment." ) );
+        tours.add ( new Tour ( "Wellness and Fitness", "Fitness oasis in the Westerholter Gertrudis Hospital offers sports, relaxation and health" ) );
+        tours.add ( new Tour ( "Various indoor and outdoor activities at copa ca backum ", "Teichstrasse 20, 45699 Herten" ) );
+        tours.add ( new Tour ( "Cycle in Herten", "Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen" ) );
+
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
         TourAdapter adapter =

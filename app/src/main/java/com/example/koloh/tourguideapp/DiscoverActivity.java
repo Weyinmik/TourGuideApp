@@ -24,7 +24,7 @@ public class DiscoverActivity extends AppCompatActivity {
         tours.add ( new Tour ( "Schloss Herten", "15, Im Schloßpark, 45699 Herten" ) );
         tours.add ( new Tour ( "NEW HORIZONS - In the footsteps of time", "Werner-Heisenberg-Straße 14, 45699 Herten" ) );
         tours.add ( new Tour ( "Halde Hoppenbruch", "45699 Herten" ) );
-        
+
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
         TourAdapter adapter =

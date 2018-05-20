@@ -19,11 +19,11 @@ public class DiscoverActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Colliery mallets & Iron", "Hiberniastraße 12, 45699 Herten" ) );
-        tours.add ( new Tour ( "Halde Hoheward", "Halde Hoheward, 45699 Herten" ) );
-        tours.add ( new Tour ( "Schloss Herten", "15, Im Schloßpark, 45699 Herten" ) );
-        tours.add ( new Tour ( "NEW HORIZONS - In the footsteps of time", "Werner-Heisenberg-Straße 14, 45699 Herten" ) );
-        tours.add ( new Tour ( "Halde Hoppenbruch", "45699 Herten" ) );
+        tours.add ( new Tour ( "Colliery mallets & Iron", "Hiberniastraße 12, 45699 Herten", R.drawable.mallet_discover ) );
+        tours.add ( new Tour ( "Halde Hoheward", "Halde Hoheward, 45699 Herten", R.drawable.hohewald_discover ) );
+        tours.add ( new Tour ( "Schloss Herten", "15, Im Schloßpark, 45699 Herten", R.drawable.schloss_discover ) );
+        tours.add ( new Tour ( "NEW HORIZONS - In the footsteps of time", "Werner-Heisenberg-Straße 14, 45699 Herten", R.drawable.horizon_discover ) );
+        tours.add ( new Tour ( "Halde Hoppenbruch", "45699 Herten", R.drawable.halde_discover ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

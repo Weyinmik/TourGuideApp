@@ -19,11 +19,11 @@ public class HotelsActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Hotel Schloss Westerholt", "Schloßstraße 1, 45701 Herten" ) );
-        tours.add ( new Tour ( "ibis Styles Hotel Herten", "Resser Weg 36, 45699 Herten" ) );
-        tours.add ( new Tour ( "Hotel Alt Westerholt", "Schloßstraße 16, 45701 Herten" ) );
-        tours.add ( new Tour ( "Gasthof Altes Dorf Inh. Christian Lippemeier", "Schloßstraße 15, 45701 Herten" ) );
-        tours.add ( new Tour ( "Hotel Fousek", "Geschwisterstraße 47, 45701 Herten" ) );
+        tours.add ( new Tour ( "Hotel Schloss Westerholt", "Schloßstraße 1, 45701 Herten", R.drawable.schloss_hotel ) );
+        tours.add ( new Tour ( "ibis Styles Hotel Herten", "Resser Weg 36, 45699 Herten", R.drawable.ibis_hotel ) );
+        tours.add ( new Tour ( "Hotel Alt Westerholt", "Schloßstraße 16, 45701 Herten", R.drawable.westerholt_hotel ) );
+        tours.add ( new Tour ( "Gasthof Altes Dorf Inh. Christian Lippemeier", "Schloßstraße 15, 45701 Herten", R.drawable.gastholf_hotel ) );
+        tours.add ( new Tour ( "Hotel Fousek", "Geschwisterstraße 47, 45701 Herten", R.drawable.fousek_hotel ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

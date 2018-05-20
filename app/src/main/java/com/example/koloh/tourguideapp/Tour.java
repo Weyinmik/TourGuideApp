@@ -26,10 +26,12 @@ public class Tour {
      *
      * @param defaultName  the name of the Tour Place
      * @param placeAddress the address of the place
+     *@param imageResourceId is the drawable Resource ID for the image assets
      */
-    public Tour(String defaultName, String placeAddress) {
+    public Tour(String defaultName, String placeAddress, int imageResourceId) {
         mDefaultName = defaultName;
         mPlaceAddress = placeAddress;
+        mImageResourceId = imageResourceId;
     }
 
     /**

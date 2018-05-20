@@ -19,11 +19,11 @@ public class SportActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Hike in Hoheward – Gipfel Hoheward Loop from Herten-Süd-West", "Intermediate Hiking Tour. Good fitness required. Easily-accessible paths. Suitable for all skill levels." ) );
-        tours.add ( new Tour ( "You and your Dog around Herten", "Have a great time around Herten in a secure and free environment." ) );
-        tours.add ( new Tour ( "Wellness and Fitness", "Fitness oasis in the Westerholter Gertrudis Hospital offers sports, relaxation and health" ) );
-        tours.add ( new Tour ( "Various indoor and outdoor activities at copa ca backum ", "Teichstrasse 20, 45699 Herten" ) );
-        tours.add ( new Tour ( "Cycle in Herten", "Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen" ) );
+        tours.add ( new Tour ( "Hike in Hoheward – Gipfel Hoheward Loop from Herten-Süd-West", "Intermediate Hiking Tour. Good fitness required. Easily-accessible paths. Suitable for all skill levels.", R.drawable.howard_sport ) );
+        tours.add ( new Tour ( "You and your Dog around Herten", "Have a great time around Herten in a secure and free environment.", R.drawable.walkdog_sport ) );
+        tours.add ( new Tour ( "Wellness and Fitness", "Fitness oasis in the Westerholter Gertrudis Hospital offers sports, relaxation and health", R.drawable.wellness_sport ) );
+        tours.add ( new Tour ( "Various indoor and outdoor activities at copa ca backum ", "Teichstrasse 20, 45699 Herten", R.drawable.copa_sport ) );
+        tours.add ( new Tour ( "Cycle in Herten", "Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen", R.drawable.cycle_sport ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

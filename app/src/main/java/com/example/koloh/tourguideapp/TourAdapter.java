@@ -48,13 +48,13 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         // set this text on the address TextView
         addressTextView.setText ( currentTourPlace.getPlaceAddress () );
 
-        //IMAGE VIEW FOr the LOgo
+        //IMAGE VIEW FOr the images
 
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-        //ImageView iconView = (ImageView) listItemView.findViewById ( R.id.list_item_icon );
+        // Find the ImageView in the list_item.xml layout with the ID image
+        ImageView imageView = (ImageView) listItemView.findViewById ( R.id.image );
         // Get the image resource ID from the current TourPlace object and
-        // set the image to iconView
-        // iconView.setImageResource ( currentTourPlace.getImageResourceId () );
+        // set the image to imageView
+        imageView.setImageResource ( currentTourPlace.getImageResourceId () );
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView

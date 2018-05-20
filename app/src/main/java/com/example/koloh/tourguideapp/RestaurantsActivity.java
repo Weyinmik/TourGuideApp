@@ -19,10 +19,10 @@ public class RestaurantsActivity extends AppCompatActivity {
 
 // Create a list of words
         ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Restaurant Opatija", "Josefstraße 27, 45699 Herten" ) );
-        tours.add ( new Tour ( "La Vita Nuova", "Ewaldstraße 81, 45699 Herten" ) );
-        tours.add ( new Tour ( "Restaurant Vangelis", "Reitkamp 61, 45699 Herten" ) );
-        tours.add ( new Tour ( "Schnitzelhaus - Christ", "Herner Str. 66, 45699 Herten" ) );
+        tours.add ( new Tour ( "Restaurant Opatija", "Josefstraße 27, 45699 Herten", R.drawable.opatiji_restaurant ) );
+        tours.add ( new Tour ( "La Vita Nuova", "Ewaldstraße 81, 45699 Herten", R.drawable.la_restaurant ) );
+        tours.add ( new Tour ( "Restaurant Vangelis", "Reitkamp 61, 45699 Herten", R.drawable.vangeli_restaurant ) );
+        tours.add ( new Tour ( "Schnitzelhaus - Christ", "Herner Str. 66, 45699 Herten", R.drawable.christ_restaurant ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

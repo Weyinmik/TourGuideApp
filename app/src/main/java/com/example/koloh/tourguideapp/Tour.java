@@ -17,6 +17,11 @@ public class Tour {
     private String mPlaceAddress;
 
     /**
+     * Image resource ID for the tours
+     */
+    private int mImageResourceId;
+
+    /**
      * Create a new Tour object.
      *
      * @param defaultName  the name of the Tour Place
@@ -28,17 +33,24 @@ public class Tour {
     }
 
     /**
-     * Get the default translation of the word.
+     * Get the default Name of the tour place.
      */
     public String getDefaultName() {
         return mDefaultName;
     }
 
     /**
-     * Get the Miwok translation of the word.
+     * Get the Place Address of the tour address.
      */
     public String getPlaceAddress() {
         return mPlaceAddress;
+    }
+
+    /**
+     * Get and returns the Image Resource ID of the tour.
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 }
 

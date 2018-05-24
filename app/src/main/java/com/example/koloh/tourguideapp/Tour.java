@@ -22,16 +22,22 @@ public class Tour {
     private int mImageResourceId;
 
     /**
+     * Image resource ID for the tours
+     */
+    private String mWebResourceId;
+
+    /**
      * Create a new Tour object.
      *
      * @param defaultName  the name of the Tour Place
      * @param placeAddress the address of the place
      *@param imageResourceId is the drawable Resource ID for the image assets
      */
-    public Tour(String defaultName, String placeAddress, int imageResourceId) {
+    public Tour(String defaultName, String placeAddress, int imageResourceId, String webResourceId) {
         mDefaultName = defaultName;
         mPlaceAddress = placeAddress;
         mImageResourceId = imageResourceId;
+        mWebResourceId = webResourceId;
     }
 
     /**
@@ -53,6 +59,13 @@ public class Tour {
      */
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    /**
+     * Get and returns the Web Resource ID of the word.
+     */
+    public String getWebResourceId() {
+        return mWebResourceId;
     }
 }
 

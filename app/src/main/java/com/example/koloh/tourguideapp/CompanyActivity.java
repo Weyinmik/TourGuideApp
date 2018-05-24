@@ -32,7 +32,7 @@ public class CompanyActivity extends AppCompatActivity {
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
         TourAdapter adapter =
-                new TourAdapter ( this, tours );
+                new TourAdapter ( this, tours, R.color.category_companies );
 
         // Finding the {@link ListView} object in the view hierarchy of the {@link Activity}.
         ListView listView = (ListView) findViewById ( R.id.list );

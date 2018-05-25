@@ -6,35 +6,63 @@
     android:background="@color/tour_background"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <!-- Discover category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_discover">
     <TextView
         android:id="@+id/discover_herten"
         style="@style/CategoryTourStyle"
-        android:background="@color/category_discover"
+        android:background="?android:attr/selectableItemBackground"
         android:text="@string/category_discover_herten" />
-
+    </FrameLayout>
+    <!-- Sport category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_sport">
     <TextView
         android:id="@+id/sport"
         style="@style/CategoryTourStyle"
-        android:background="@color/category_sport"
+        android:background="?android:attr/selectableItemBackground"
         android:text="@string/category_sport" />
-
+    </FrameLayout>
+    <!-- Companies category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_companies">
     <TextView
         android:id="@+id/companies"
         style="@style/CategoryTourStyle"
-        android:background="@color/category_companies"
+        android:background="?android:attr/selectableItemBackground"
         android:text="@string/category_companies" />
+    </FrameLayout>
 
-    <TextView
+    <!-- Hotels category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hotels">
+
+        <TextView
         android:id="@+id/hotels"
         style="@style/CategoryTourStyle"
-        android:background="@color/category_hotels"
+            android:background="?android:attr/selectableItemBackground"
         android:text="@string/category_hotels" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/restaurants"
-        style="@style/CategoryTourStyle"
-        android:background="@color/category_restaurant"
-        android:text="@string/category_restaurants" />
+    <!-- Restaurant category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurant">
 
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryTourStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_restaurants" />
+    </FrameLayout>
 </LinearLayout>

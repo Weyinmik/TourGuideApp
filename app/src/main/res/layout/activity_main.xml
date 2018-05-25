@@ -64,5 +64,6 @@
             style="@style/CategoryTourStyle"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/category_restaurants" />
+
     </FrameLayout>
 </LinearLayout>

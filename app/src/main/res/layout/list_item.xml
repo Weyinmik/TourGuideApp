@@ -24,10 +24,10 @@
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="@dimen/list_item_height"
             android:layout_weight="1"
             android:gravity="top"
-            android:paddingTop="5dp"
+            android:paddingTop="@dimen/list_top_padding"
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
@@ -35,16 +35,16 @@
         <TextView
             android:id="@+id/address"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="@dimen/list_item_height"
             android:layout_weight="1"
             android:gravity="bottom"
-            android:paddingTop="5dp"
+            android:paddingTop="@dimen/list_top_padding"
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@android:color/white" />
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="16dp"

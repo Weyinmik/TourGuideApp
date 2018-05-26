@@ -29,7 +29,7 @@ public class DiscoverFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
-        // Create a list of tour places
+        // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
         tours.add ( new Tour ( "Colliery mallets & Iron", "Hiberniastraße 12, 45699 Herten", R.drawable.mallet_discover, "https://goo.gl/maps/mw2v9kKgUqm" ) );
         tours.add ( new Tour ( "Halde Hoheward", "Halde Hoheward, 45699 Herten", R.drawable.hohewald_discover, "https://goo.gl/maps/1MmpYqZBUYt" ) );

@@ -29,7 +29,7 @@ public class RestaurantsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
-        // Create a list of words
+        // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
         tours.add ( new Tour ( "Restaurant Opatija", "Josefstraße 27, 45699 Herten", R.drawable.opatiji_restaurant, "https://goo.gl/maps/TU4waE6eVRs" ) );
         tours.add ( new Tour ( "La Vita Nuova", "Ewaldstraße 81, 45699 Herten", R.drawable.la_restaurant, "https://goo.gl/maps/xjZ7Hv8Lx8r" ) );
@@ -37,11 +37,11 @@ public class RestaurantsFragment extends Fragment {
         tours.add ( new Tour ( "Schnitzelhaus - Christ", "Herner Str. 66, 45699 Herten", R.drawable.christ_restaurant, "https://goo.gl/maps/GvVdz37ePEF2" ) );
 
 
-        // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
+        // This creates a {@link ArrayAdapter}, for the data source is a list of Strings.
         TourAdapter adapter =
                 new TourAdapter ( getActivity (), tours, R.color.category_restaurant );
 
-        // Finding the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // Finds the {@link ListView} object in the view hierarchy of the {@link Activity}.
         ListView listView = (ListView) rootView.findViewById ( R.id.list );
 
         // Make the {@link ListView} use the {@link ArrayAdapter} to enable {@link ListView} display list items.

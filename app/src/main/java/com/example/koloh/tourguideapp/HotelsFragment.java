@@ -29,7 +29,7 @@ public class HotelsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
-        // Create a list of words
+        // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
         tours.add ( new Tour ( "Hotel Schloss Westerholt", "Schloßstraße 1, 45701 Herten", R.drawable.schloss_hotel, "https://goo.gl/maps/SFEeqJp3Mby" ) );
         tours.add ( new Tour ( "ibis Styles Hotel Herten", "Resser Weg 36, 45699 Herten", R.drawable.ibis_hotel, "https://goo.gl/maps/VLS5Wd16s4t" ) );
@@ -38,7 +38,7 @@ public class HotelsFragment extends Fragment {
         tours.add ( new Tour ( "Hotel Fousek", "Geschwisterstraße 47, 45701 Herten", R.drawable.fousek_hotel, "https://goo.gl/maps/uKiFPZqZbw92" ) );
 
 
-        // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
+        // Creates a {@link ArrayAdapter}, for data source which is a list of Strings.
         TourAdapter adapter =
                 new TourAdapter ( getActivity (), tours, R.color.category_hotels );
 

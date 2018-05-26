@@ -29,7 +29,7 @@ public class CompanyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
-        // Create a list of words
+        // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
         tours.add ( new Tour ( "PROSOZ Herten GmbH", "Ewaldstraße 261, 45699 Herten", R.drawable.prosoz, "https://goo.gl/maps/oGUc7FS1PeK2" ) );
         tours.add ( new Tour ( "Johrendt-Bautenschutz GmbH", "Grimmstraße 6, 45701 Herten", R.drawable.johnredt, "https://goo.gl/maps/qH9Dmu6vWEJ2" ) );
@@ -42,14 +42,14 @@ public class CompanyFragment extends Fragment {
         tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten", R.drawable.cocacola, "https://goo.gl/maps/QWnKpjSQYB12" ) );
         tours.add ( new Tour ( "ISRA Surface Vision GmbH", "Albert-Einstein-Allee 36-40, 45699 Herten", R.drawable.isra, "https://goo.gl/maps/syZWcpGnRcw" ) );
 
-        // Created an {@link ArrayAdapter}, whose data source is a list of Strings.
+        // Creates a {@link ArrayAdapter}, for the data which is a list of Strings.
         TourAdapter adapter =
                 new TourAdapter ( getActivity (), tours, R.color.category_companies );
 
-        // Finding view by Id on the rootView.
+        // Finds view by Id on the rootView.
         ListView listView = (ListView) rootView.findViewById ( R.id.list );
 
-        // Make the {@link ListView} use the {@link ArrayAdapter} to enable {@link ListView} display list items.
+        // Making the {@link ListView} use the {@link ArrayAdapter} to enable {@link ListView} display list items.
         listView.setAdapter ( adapter );
 
         listView.setOnItemClickListener ( new AdapterView.OnItemClickListener () {

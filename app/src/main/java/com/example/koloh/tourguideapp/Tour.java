@@ -7,12 +7,12 @@ package com.example.koloh.tourguideapp;
 
 public class Tour {
     /**
-     * Default translation for the word
+     * Name of Places to Tour
      */
     private String mDefaultName;
 
     /**
-     * Miwok translation for the word
+     * Address of places to tour
      */
     private String mPlaceAddress;
 
@@ -55,14 +55,14 @@ public class Tour {
     }
 
     /**
-     * Get and returns the Image Resource ID of the tour.
+     * Get and returns the Image Resource ID of the place to tour.
      */
     public int getImageResourceId() {
         return mImageResourceId;
     }
 
     /**
-     * Get and returns the Web Resource ID of the word.
+     * Get and returns the Web Resource ID of the place to tour.
      */
     public String getWebResourceId() {
         return mWebResourceId;

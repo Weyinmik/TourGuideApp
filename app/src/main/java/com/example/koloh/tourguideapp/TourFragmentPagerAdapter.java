@@ -59,15 +59,15 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString ( R.string.category_discover_herten );
+            return mContext.getString ( R.string.title_discover );
         } else if (position == 1) {
-            return mContext.getString ( R.string.category_companies );
+            return mContext.getString ( R.string.title_companies );
         } else if (position == 2) {
-            return mContext.getString ( R.string.category_hotels );
+            return mContext.getString ( R.string.title_hotels );
         } else if (position == 3) {
-            return mContext.getString ( R.string.category_sport );
+            return mContext.getString ( R.string.title_sport );
         } else {
-            return mContext.getString ( R.string.category_restaurants);
+            return mContext.getString ( R.string.title_restaurants );
         }
     }
 }

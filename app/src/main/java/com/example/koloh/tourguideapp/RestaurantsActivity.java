@@ -15,7 +15,7 @@ public class RestaurantsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
-        setContentView ( R.layout.tour_category );
+        setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
                 .replace ( R.id.tour_container, new RestaurantsFragment () )
                 .commit ();

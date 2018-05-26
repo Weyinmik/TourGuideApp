@@ -1,77 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/tour_background"
+    android:orientation="vertical">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tour_tabs"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/tour_background"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
-        <!-- Discover category -->
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_discover">
+        android:layout_height="wrap_content" />
 
-            <TextView
-                android:id="@+id/discover_herten"
-                style="@style/CategoryTourStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/category_discover_herten" />
-        </FrameLayout>
-        <!-- Sport category -->
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_sport">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-            <TextView
-                android:id="@+id/sport"
-                style="@style/CategoryTourStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/category_sport" />
-        </FrameLayout>
-        <!-- Companies category -->
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_companies">
-
-            <TextView
-                android:id="@+id/companies"
-                style="@style/CategoryTourStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/category_companies" />
-        </FrameLayout>
-
-        <!-- Hotels category -->
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_hotels">
-
-            <TextView
-                android:id="@+id/hotels"
-                style="@style/CategoryTourStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/category_hotels" />
-        </FrameLayout>
-
-        <!-- Restaurant category -->
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/category_restaurant">
-
-            <TextView
-                android:id="@+id/restaurants"
-                style="@style/CategoryTourStyle"
-                android:background="?android:attr/selectableItemBackground"
-                android:text="@string/category_restaurants" />
-
-        </FrameLayout>
 </LinearLayout>
-</ScrollView>

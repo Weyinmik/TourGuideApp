@@ -17,7 +17,7 @@ public class HotelsActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
-                .replace ( R.id.tour_container, new HotelsFragment () )
+                .replace ( R.id.tour_tabs, new HotelsFragment () )
                 .commit ();
 
     }

@@ -11,7 +11,7 @@ public class CompanyActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
-                .replace ( R.id.tour_container, new CompanyFragment () )
+                .replace ( R.id.tour_tabs, new CompanyFragment () )
                 .commit ();
 
     }

@@ -17,7 +17,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
-                .replace ( R.id.tour_container, new RestaurantsFragment () )
+                .replace ( R.id.tour_tabs, new RestaurantsFragment () )
                 .commit ();
 
     }

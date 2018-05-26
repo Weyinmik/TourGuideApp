@@ -17,7 +17,7 @@ public class SportActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
-                .replace ( R.id.tour_container, new SportFragment () )
+                .replace ( R.id.tour_tabs, new SportFragment () )
                 .commit ();
 
     }

@@ -18,7 +18,7 @@ public class DiscoverActivity extends AppCompatActivity {
         super.onCreate ( savedInstanceState );
         setContentView ( R.layout.activity_main );
         getSupportFragmentManager ().beginTransaction ()
-                .replace ( R.id.tour_container, new DiscoverFragment () )
+                .replace ( R.id.tour_tabs, new DiscoverFragment () )
                 .commit ();
 
     }

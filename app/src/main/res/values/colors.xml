@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#006400</color>
-    <color name="colorPrimaryDark">#DC143C</color>
+    <color name="colorPrimary">#808080</color>
+    <color name="colorPrimaryDark">#808080</color>
     <color name="colorAccent">#F0FFF0</color>
 
 
@@ -9,17 +9,17 @@
     <color name="tour_background">#F0FFF0</color>
 
     <!-- Background color for the Discover category -->
-    <color name="category_discover">#008080</color>
+    <color name="category_discover">#DAA520</color>
 
     <!-- Background color for the herten companies category -->
     <color name="category_companies">#FF6347</color>
 
     <!-- Background color for the hotels category -->
-    <color name="category_hotels">#00FF7F</color>
+    <color name="category_hotels">#7B68EE</color>
 
     <!-- Background color for the restaurant category -->
     <color name="category_restaurant">#B22222</color>
 
     <!-- Background color for the sport category -->
-    <color name="category_sport">#3CB371</color>
+    <color name="category_sport">#A0522D</color>
 </resources>

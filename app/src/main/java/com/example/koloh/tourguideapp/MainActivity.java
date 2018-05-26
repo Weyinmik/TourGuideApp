@@ -40,31 +40,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.companies:
                 Intent companyIntent = new Intent ( MainActivity.this, CompanyActivity.class );
                 startActivity ( companyIntent );
-                Toast.makeText ( getApplicationContext (), "You can use the back arrow to go back to Main Screen", Toast.LENGTH_SHORT ).show ();
+
                 break;
 
             case R.id.discover_herten:
                 Intent discoverIntent = new Intent ( MainActivity.this, DiscoverActivity.class );
                 startActivity ( discoverIntent );
-                Toast.makeText ( getApplicationContext (), "You can use the back arrow to go back to Main Screen", Toast.LENGTH_SHORT ).show ();
                 break;
 
             case R.id.sport:
                 Intent countryIntent = new Intent ( MainActivity.this, SportActivity.class );
                 startActivity ( countryIntent );
-                Toast.makeText ( getApplicationContext (), "You can use the back arrow to go back to Main Screen", Toast.LENGTH_SHORT ).show ();
                 break;
 
             case R.id.hotels:
                 Intent hotelIntent = new Intent ( MainActivity.this, HotelsActivity.class );
                 startActivity ( hotelIntent );
-                Toast.makeText ( getApplicationContext (), "You can use the back arrow to go back to Main Screen", Toast.LENGTH_SHORT ).show ();
+                
                 break;
 
             case R.id.restaurants:
                 Intent restaurantIntent = new Intent ( MainActivity.this, RestaurantsActivity.class );
                 startActivity ( restaurantIntent );
-                Toast.makeText ( getApplicationContext (), "You can use the back arrow to go back to Main Screen", Toast.LENGTH_SHORT ).show ();
                 break;
 
 

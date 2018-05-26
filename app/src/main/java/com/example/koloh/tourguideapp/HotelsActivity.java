@@ -20,9 +20,5 @@ public class HotelsActivity extends AppCompatActivity {
                 .replace ( R.id.tour_container, new HotelsFragment () )
                 .commit ();
 
-        // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_hotels );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
-
     }
 }

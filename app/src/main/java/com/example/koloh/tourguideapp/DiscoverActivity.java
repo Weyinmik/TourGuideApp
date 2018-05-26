@@ -21,10 +21,5 @@ public class DiscoverActivity extends AppCompatActivity {
                 .replace ( R.id.tour_container, new DiscoverFragment () )
                 .commit ();
 
-
-        // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_discover );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
-
     }
 }

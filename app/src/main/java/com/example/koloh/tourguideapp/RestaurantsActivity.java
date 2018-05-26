@@ -20,10 +20,5 @@ public class RestaurantsActivity extends AppCompatActivity {
                 .replace ( R.id.tour_container, new RestaurantsFragment () )
                 .commit ();
 
-        // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_restaurants );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
-
-
     }
 }

@@ -20,10 +20,5 @@ public class SportActivity extends AppCompatActivity {
                 .replace ( R.id.tour_container, new SportFragment () )
                 .commit ();
 
-        // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_sport );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
-
-
     }
 }

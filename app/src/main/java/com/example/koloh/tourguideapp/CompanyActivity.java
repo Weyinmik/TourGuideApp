@@ -14,10 +14,5 @@ public class CompanyActivity extends AppCompatActivity {
                 .replace ( R.id.tour_container, new CompanyFragment () )
                 .commit ();
 
-        // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_companies );
-        getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
-
-
     }
 }

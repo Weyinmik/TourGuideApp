@@ -18,15 +18,15 @@ public class SportActivity extends AppCompatActivity {
         setContentView ( R.layout.tour_list );
 
         // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_companies );
+        getSupportActionBar ().setTitle ( R.string.title_sport );
         getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
 
 // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Hike in Hoheward – Gipfel Hoheward Loop from Herten-Süd-West", "Intermediate Hiking Tour. Good fitness required. Easily-accessible paths.", R.drawable.howard_sport, "https://goo.gl/maps/MVdYtqT62pH2" ) );
-        tours.add ( new Tour ( "You and your Dog around Herten", "Have a great time around Herten in a secure and free environment.", R.drawable.walkdog_sport, "https://goo.gl/maps/QxTQNWsZYv92" ) );
-        tours.add ( new Tour ( "Wellness and Fitness", "Fitness oasis in the Westerholter Gertrudis Hospital offers sports, relaxation and health", R.drawable.wellness_sport, "https://goo.gl/maps/YYkLqowdgP22" ) );
-        tours.add ( new Tour ( "Various indoor and outdoor activities at copa ca backum ", "Teichstrasse 20, 45699 Herten", R.drawable.copa_sport, "https://goo.gl/maps/ZHY5NfNk5SK2" ) );
+        tours.add ( new Tour ( "Hike in Hoheward", "45699 Herten", R.drawable.howard_sport, "https://goo.gl/maps/MVdYtqT62pH2" ) );
+        tours.add ( new Tour ( "You and your Dog around Herten", "45699 Herten", R.drawable.walkdog_sport, "https://goo.gl/maps/QxTQNWsZYv92" ) );
+        tours.add ( new Tour ( "Westerholter Gertrudis Hospital", "Kuhstrasse 23, 45701 Herten", R.drawable.wellness_sport, "https://goo.gl/maps/YYkLqowdgP22" ) );
+        tours.add ( new Tour ( "Sport at Copa ca backum ", "Teichstrasse 20, 45699 Herten", R.drawable.copa_sport, "https://goo.gl/maps/ZHY5NfNk5SK2" ) );
         tours.add ( new Tour ( "Cycle in Herten", "Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen", R.drawable.cycle_sport, "https://goo.gl/maps/UsYkcJxDnwx" ) );
 
 

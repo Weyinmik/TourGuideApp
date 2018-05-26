@@ -29,7 +29,7 @@ public class CompanyActivity extends AppCompatActivity {
         tours.add ( new Tour ( "Spedition Wilhelm Mazurek GmbH", "Industriestraße 12B, 45699 Herten", R.drawable.william, "https://goo.gl/maps/irE87KjPJMz" ) );
         tours.add ( new Tour ( "Autohaus Blendorf GmbH Mazda", "Schlägel-und-Eisen-Straße 36, 45701 Herten", R.drawable.auto, "https://goo.gl/maps/ucoM4UqY3w52" ) );
         tours.add ( new Tour ( "Imperial Industrial Logistics GmbH", "Carl-Bosch-Straße 2-6, 45699 Herten", R.drawable.imperial, "https://goo.gl/maps/2j6PRFughMG2" ) );
-        tours.add ( new Tour ( "Klaeser Internationale Fachspedition und Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten", R.drawable.klaser, "https://goo.gl/maps/s79jqJid7PM2" ) );
+        tours.add ( new Tour ( "Klaeser Int’l. Fachspedition & Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten", R.drawable.klaser, "https://goo.gl/maps/s79jqJid7PM2" ) );
         tours.add ( new Tour ( "Hertener Stadtwerke GmbH", "Herner Str. 21, 45699 Herten", R.drawable.stadtwerk, "https://goo.gl/maps/y184S3aqsK12" ) );
         tours.add ( new Tour ( "Herta GmbH", "Westerholter Str. 750, 45701 Herten", R.drawable.herta, "https://goo.gl/maps/RMKMe8jUWw42" ) );
         tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten", R.drawable.cocacola, "https://goo.gl/maps/QWnKpjSQYB12" ) );

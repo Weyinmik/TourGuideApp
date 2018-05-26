@@ -18,7 +18,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         setContentView ( R.layout.tour_list );
 
         // Create a back Action arrow to go back to main Activity
-        getSupportActionBar ().setTitle ( R.string.title_companies );
+        getSupportActionBar ().setTitle ( R.string.title_restaurants );
         getSupportActionBar ().setDisplayHomeAsUpEnabled ( true );
 
 // Create a list of words

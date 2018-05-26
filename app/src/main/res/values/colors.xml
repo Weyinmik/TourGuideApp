@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#808080</color>
-    <color name="colorPrimaryDark">#808080</color>
-    <color name="colorAccent">#F0FFF0</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#008000</color>
 
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#228B22</color>
 
     <!-- Background color for app -->
     <color name="tour_background">#F0FFF0</color>

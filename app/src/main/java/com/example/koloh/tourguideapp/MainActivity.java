@@ -2,6 +2,7 @@ package com.example.koloh.tourguideapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -13,58 +14,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate ( savedInstanceState );
 
-        // Set the content of the activity to use the activity_main.xml layout file
-        setContentView ( R.layout.activity_main );
+        // Set the content of the activity to use the tour_category.xml layout file
+        setContentView ( R.layout.tour_category );
 
-        // declare variables for each music category
-        TextView discover = (TextView) findViewById ( R.id.discover_herten );
-        TextView sport = (TextView) findViewById ( R.id.sport );
-        TextView company = (TextView) findViewById ( R.id.companies );
-        TextView hotels = (TextView) findViewById ( R.id.hotels );
-        TextView restaurants = (TextView) findViewById ( R.id.restaurants );
+        // Find the view pager that will allow the user to swipe between fragments
+        ViewPager viewPager = (ViewPager) findViewById ( R.id.viewpager );
 
+        // Create an adapter that knows which fragment should be shown on each page
+        TourFragmentPagerAdapter adapter = new TourFragmentPagerAdapter ( getSupportFragmentManager () );
 
-// Set onClickListener on each TextView
-        discover.setOnClickListener ( this );
-        sport.setOnClickListener ( this );
-        company.setOnClickListener ( this );
-        hotels.setOnClickListener ( this );
-        restaurants.setOnClickListener ( this );
-
-
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId ()) {
-            case R.id.companies:
-                Intent companyIntent = new Intent ( MainActivity.this, CompanyActivity.class );
-                startActivity ( companyIntent );
-
-                break;
-
-            case R.id.discover_herten:
-                Intent discoverIntent = new Intent ( MainActivity.this, DiscoverActivity.class );
-                startActivity ( discoverIntent );
-                break;
-
-            case R.id.sport:
-                Intent countryIntent = new Intent ( MainActivity.this, SportActivity.class );
-                startActivity ( countryIntent );
-                break;
-
-            case R.id.hotels:
-                Intent hotelIntent = new Intent ( MainActivity.this, HotelsActivity.class );
-                startActivity ( hotelIntent );
-                
-                break;
-
-            case R.id.restaurants:
-                Intent restaurantIntent = new Intent ( MainActivity.this, RestaurantsActivity.class );
-                startActivity ( restaurantIntent );
-                break;
-
-
-        }
+        // Set the adapter onto the view pager
+        viewPager.setAdapter ( adapter );
     }
 }
+

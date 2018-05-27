@@ -15,7 +15,7 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     /**
      * Context of the app
      */
-    private Context mContext;
+    private Context tourContext;
 
     /**
      * Create a new {@link TourFragmentPagerAdapter} object.
@@ -26,7 +26,7 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
      */
     public TourFragmentPagerAdapter(Context context, FragmentManager fragmentManager) {
         super ( fragmentManager );
-        mContext = context;
+        tourContext = context;
     }
 
     /**
@@ -59,15 +59,15 @@ public class TourFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString ( R.string.title_discover );
+            return tourContext.getString ( R.string.title_discover );
         } else if (position == 1) {
-            return mContext.getString ( R.string.title_companies );
+            return tourContext.getString ( R.string.title_companies );
         } else if (position == 2) {
-            return mContext.getString ( R.string.title_hotels );
+            return tourContext.getString ( R.string.title_hotels );
         } else if (position == 3) {
-            return mContext.getString ( R.string.title_sport );
+            return tourContext.getString ( R.string.title_sport );
         } else {
-            return mContext.getString ( R.string.title_restaurants );
+            return tourContext.getString ( R.string.title_restaurants );
         }
     }
 }

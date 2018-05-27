@@ -9,22 +9,22 @@ public class Tour {
     /**
      * Name of Places to Tour
      */
-    private String mDefaultName;
+    private String tourDefaultName;
 
     /**
      * Address of places to tour
      */
-    private String mPlaceAddress;
+    private String tourPlaceAddress;
+
+    /**
+     * Image resource ID for the tour places
+     */
+    private int tourImageResourceId;
 
     /**
      * Image resource ID for the tours
      */
-    private int mImageResourceId;
-
-    /**
-     * Image resource ID for the tours
-     */
-    private String mWebResourceId;
+    private String tourWebResourceId;
 
     /**
      * Create a new Tour object.
@@ -34,38 +34,38 @@ public class Tour {
      *@param imageResourceId is the drawable Resource ID for the image assets
      */
     public Tour(String defaultName, String placeAddress, int imageResourceId, String webResourceId) {
-        mDefaultName = defaultName;
-        mPlaceAddress = placeAddress;
-        mImageResourceId = imageResourceId;
-        mWebResourceId = webResourceId;
+        tourDefaultName = defaultName;
+        tourPlaceAddress = placeAddress;
+        tourImageResourceId = imageResourceId;
+        tourWebResourceId = webResourceId;
     }
 
     /**
      * Get the default Name of the tour place.
      */
     public String getDefaultName() {
-        return mDefaultName;
+        return tourDefaultName;
     }
 
     /**
      * Get the Place Address of the tour address.
      */
     public String getPlaceAddress() {
-        return mPlaceAddress;
+        return tourPlaceAddress;
     }
 
     /**
      * Get and returns the Image Resource ID of the place to tour.
      */
     public int getImageResourceId() {
-        return mImageResourceId;
+        return tourImageResourceId;
     }
 
     /**
      * Get and returns the Web Resource ID of the place to tour.
      */
     public String getWebResourceId() {
-        return mWebResourceId;
+        return tourWebResourceId;
     }
 }
 

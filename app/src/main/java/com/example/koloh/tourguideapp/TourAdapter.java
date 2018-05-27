@@ -16,14 +16,14 @@ import java.util.ArrayList;
 public class TourAdapter extends ArrayAdapter<Tour> {
 
     /* Resources ID for the background color of tour list*/
-    private int mColorResourceId;
+    private int tourColorResourceId;
 
     private static final String LOG_TAG = TourAdapter.class.getSimpleName ();
 
     public TourAdapter(Activity context, ArrayList<Tour> tours, int colorResourceId) {
 
         super ( context, 0, tours );
-        mColorResourceId = colorResourceId;
+        tourColorResourceId = colorResourceId;
     }
 
 
@@ -64,7 +64,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById ( R.id.description_container );
         // Find the color that the resource ID maps to
-        int color = ContextCompat.getColor ( getContext (), mColorResourceId );
+        int color = ContextCompat.getColor ( getContext (), tourColorResourceId );
         // Set the background color of the text container View
         textContainer.setBackgroundColor ( color );
 

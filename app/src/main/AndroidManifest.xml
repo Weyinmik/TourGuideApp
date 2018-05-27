@@ -16,30 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DiscoverActivity"
-            android:label="@string/title_discover"
-            android:parentActivityName=".MainActivity" />
 
-        <activity
-            android:name=".SportActivity"
-            android:label="@string/title_sport"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".CompanyActivity"
-            android:label="@string/title_companies"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".HotelsActivity"
-            android:label="@string/title_hotels"
-            android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".RestaurantsActivity"
-            android:label="@string/title_restaurants"
-            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

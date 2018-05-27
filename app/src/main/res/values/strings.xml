@@ -28,5 +28,25 @@
     <!-- Title for SportActivity -->
     <string name="title_sport">Sport</string>
 
+    <!-- Names of tour places for sport category -->
+    <string name="sport_name_hike">Hike in Hoheward</string>
+    <string name="sport_name_dog">You and your Dog around Herten</string>
+    <string name="sport_name_wellness">Westerholter Gertrudis Hospital</string>
+    <string name="sport_name_copa">Sport at Copa ca backum</string>
+    <string name="sport_name_cycle">Cycle in Herten</string>
+
+    <!-- Addresses of tour places for sport category -->
+    <string name="sport_address_hoheward">45699 Herten</string>
+    <string name="sport_address_herten">45699 Herten</string>
+    <string name="sport_address_kuhstrasse">Kuhstrasse 23, 45701 Herten</string>
+    <string name="sport_address_teichstrasse">Teichstrasse 20, 45699 Herten</string>
+    <string name="sport_address_ruhr">Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen</string>
+
+    <!-- Website reference of tour places for sport category -->
+    <string name="sport_website_hike">https://goo.gl/maps/MVdYtqT62pH2</string>
+    <string name="sport_website_dog">https://goo.gl/maps/QxTQNWsZYv92</string>
+    <string name="sport_website_wellness">https://goo.gl/maps/YYkLqowdgP22</string>
+    <string name="sport_website_copa">https://goo.gl/maps/ZHY5NfNk5SK2</string>
+    <string name="sport_website_cycle">https://goo.gl/maps/UsYkcJxDnwx</string>
 
 </resources>

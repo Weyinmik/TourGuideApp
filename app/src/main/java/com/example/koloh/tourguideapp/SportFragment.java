@@ -31,11 +31,11 @@ public class SportFragment extends Fragment {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
         // Create a list of words
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Hike in Hoheward", "45699 Herten", R.drawable.howard_sport, "https://goo.gl/maps/MVdYtqT62pH2" ) );
-        tours.add ( new Tour ( "You and your Dog around Herten", "45699 Herten", R.drawable.walkdog_sport, "https://goo.gl/maps/QxTQNWsZYv92" ) );
-        tours.add ( new Tour ( "Westerholter Gertrudis Hospital", "Kuhstrasse 23, 45701 Herten", R.drawable.wellness_sport, "https://goo.gl/maps/YYkLqowdgP22" ) );
-        tours.add ( new Tour ( "Sport at Copa ca backum ", "Teichstrasse 20, 45699 Herten", R.drawable.copa_sport, "https://goo.gl/maps/ZHY5NfNk5SK2" ) );
-        tours.add ( new Tour ( "Cycle in Herten", "Ruhr Tourismus GmbH, Centroallee 261,46047 Oberhausen", R.drawable.cycle_sport, "https://goo.gl/maps/UsYkcJxDnwx" ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.sport_name_hike ), getResources ().getString ( R.string.sport_address_hoheward ), R.drawable.howard_sport, getResources ().getString ( R.string.sport_website_hike ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.sport_name_dog ), getResources ().getString ( R.string.sport_address_herten ), R.drawable.walkdog_sport, getResources ().getString ( R.string.sport_website_dog ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.sport_name_wellness ), getResources ().getString ( R.string.sport_address_kuhstrasse ), R.drawable.wellness_sport, getResources ().getString ( R.string.sport_website_wellness ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.sport_name_copa ), getResources ().getString ( R.string.sport_address_teichstrasse ), R.drawable.copa_sport, getResources ().getString ( R.string.sport_website_copa ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.sport_name_cycle ), getResources ().getString ( R.string.sport_address_ruhr ), R.drawable.cycle_sport, getResources ().getString ( R.string.sport_website_cycle ) ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

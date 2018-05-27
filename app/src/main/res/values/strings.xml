@@ -3,28 +3,127 @@
     <string name="app_name">Tour Guide App</string>
 
 
-    <!-- Category for Discover Herten. -->
+    <!-- CATEGORY FOR DISCOVER IN HERTEN -->
     <string name="category_discover_herten">Discover Herten, Germany</string>
     <!-- Title for DiscoverActivity -->
     <string name="title_discover">Discover Herten</string>
 
-    <!-- Category for Companies in Herten -->
+    <!-- Names of tour places for discover category -->
+    <string name="discover_name_iron">Colliery mallets &amp; Iron</string>
+    <string name="discover_name_halde">Halde Hoheward</string>
+    <string name="discover_name_schloss">Schloss Herten</string>
+    <string name="discover_name_horizon">NEW HORIZONS - In the footsteps of time</string>
+    <string name="discover_name_hoppen">Halde Hoppenbruch</string>
+
+    <!-- Addresses of tour places for discover category -->
+    <string name="discover_address_iron">Hiberniastraße 12, 45699 Herten</string>
+    <string name="discover_address_halde">Halde Hoheward, 45699 Herten</string>
+    <string name="discover_address_schloss">15, Im Schloßpark, 45699 Herten</string>
+    <string name="discover_address_horizon">Werner-Heisenberg-Straße 14, 45699 Herten</string>
+    <string name="discover_address_hoppen">45699 Herten</string>
+
+    <!-- Website reference of tour places for discover category -->
+    <string name="discover_website_iron">https://goo.gl/maps/SFEeqJp3Mby</string>
+    <string name="discover_website_halde">https://goo.gl/maps/1MmpYqZBUYt</string>
+    <string name="discover_website_schloss">https://goo.gl/maps/Cyg135qUvqy</string>
+    <string name="discover_website_horizon">https://goo.gl/maps/sfRDqPg7MHE2</string>
+    <string name="discover_website_hoppen">https://goo.gl/maps/cuYHgt6NnhS2</string>
+
+    <!-- CATEGORY FOR COMPANIES IN HERTEN -->
     <string name="category_companies">Companies</string>
     <!-- Title for CompanyActivity -->
-    <string name="title_companies">Firmes</string>
+    <string name="title_companies">Firms</string>
 
-    <!-- Category for Hotels in Herten -->
+    <!-- Names of tour places for discover category -->
+    <string name="company_name_prosoz">PROSOZ Herten GmbH</string>
+    <string name="company_name_joh">Johrendt-Bautenschutz GmbH</string>
+    <string name="company_name_spedition">Spedition Wilhelm Mazurek GmbH</string>
+    <string name="company_name_autohaus">Autohaus Blendorf GmbH Mazda</string>
+    <string name="company_name_imperial">Imperial Industrial Logistics GmbH</string>
+    <string name="company_name_klaeser">Klaeser Int’l. Fachspedition &amp; Fahrzeugbau GmbHPROSOZ Herten GmbH</string>
+    <string name="company_name_hertener">Hertener Stadtwerke GmbH</string>
+    <string name="company_name_herta">Herta GmbH</string>
+    <string name="company_name_cocacola">Coca-Cola European Partners Germany GmbH</string>
+    <string name="company_name_isra">ISRA Surface Vision GmbH</string>
+
+    <!-- Addresses of tour places for company category -->
+    <string name="company_address_prosoz">Ewaldstraße 261, 45699 Herten</string>
+    <string name="company_address_joh">Grimmstraße 6, 45701 Herten</string>
+    <string name="company_address_spedition">Industriestraße 12B, 45699 Herten</string>
+    <string name="company_address_autohaus">Schlägel-und-Eisen-Straße 36, 45701 Herten</string>
+    <string name="company_address_imperial">Carl-Bosch-Straße 2-6, 45699 Herten</string>
+    <string name="company_address_klaeser">Hohewardstraße 333, 45699 Herten</string>
+    <string name="company_address_hertener">Herner Str. 21, 45699 Herten</string>
+    <string name="company_address_herta">Westerholter Str. 750, 45701 Herten</string>
+    <string name="company_address_cocacola">Paschenbergstraße 30, 45699 Herten</string>
+    <string name="company_address_isra">Albert-Einstein-Allee 36-40, 45699 Herten</string>
+
+    <!-- Website of tour places for company category -->
+    <string name="company_website_prosoz">https://goo.gl/maps/oGUc7FS1PeK2</string>
+    <string name="company_website_joh">https://goo.gl/maps/qH9Dmu6vWEJ2</string>
+    <string name="company_website_spedition">https://goo.gl/maps/irE87KjPJMz</string>
+    <string name="company_website_autohaus">https://goo.gl/maps/ucoM4UqY3w52</string>
+    <string name="company_website_imperial">https://goo.gl/maps/2j6PRFughMG2</string>
+    <string name="company_website_klaeser">https://goo.gl/maps/s79jqJid7PM2</string>
+    <string name="company_website_hertener">https://goo.gl/maps/y184S3aqsK12</string>
+    <string name="company_website_herta">https://goo.gl/maps/RMKMe8jUWw42</string>
+    <string name="company_website_cocacola">https://goo.gl/maps/QWnKpjSQYB12</string>
+    <string name="company_website_isra">https://goo.gl/maps/syZWcpGnRcw</string>
+
+    <!-- CATEGORY FOR HOTELS IN HERTEN -->
     <string name="category_hotels">Hotels</string>
     <!-- Title for HotelsActivity -->
     <string name="title_hotels">Hotels</string>
 
-    <!-- Category for Restaurants in Herten -->
+    <!-- Names of tour places for hotel category -->
+    <string name="hotel_name_schloss">Hotel Schloss Westerholt</string>
+    <string name="hotel_name_ibis">Ibis Styles Hotel Herten</string>
+    <string name="hotel_name_alt">Hotel Alt Westerholt</string>
+    <string name="hotel_name_gasthof">Gasthof Altes Dorf Inh. Christian Lippemeier</string>
+    <string name="hotel_name_fousek">Hotel Fousek</string>
+
+    <!-- Addresses of tour places for hotel category -->
+    <string name="hotel_address_schloss">Schloßstraße 1, 45701 Herten</string>
+    <string name="hotel_address_ibis">Resser Weg 36, 45699 Herten</string>
+    <string name="hotel_address_alt">Schloßstraße 16, 45701 Herten</string>
+    <string name="hotel_address_gasthof">Schloßstraße 15, 45701 Herten</string>
+    <string name="hotel_address_fousek">Geschwisterstraße 47, 45701 Herten</string>
+
+    <!-- Website reference of tour places for hotel category -->
+    <string name="hotel_website_schloss">https://goo.gl/maps/SFEeqJp3Mby</string>
+    <string name="hotel_website_ibis">https://goo.gl/maps/VLS5Wd16s4t</string>
+    <string name="hotel_website_alt">https://goo.gl/maps/4P3qimokBkF2</string>
+    <string name="hotel_website_gasthof">https://goo.gl/maps/6Ygm1AjC7SM2</string>
+    <string name="hotel_website_fousek">https://goo.gl/maps/uKiFPZqZbw92</string>
+
+
+    <!-- CATEGORY FOR RESTAURANTS IN HERTEN -->
     <string name="category_restaurants">Restaurants</string>
     <!-- Title for RestaurantsActivity -->
     <string name="title_restaurants">Restaurants</string>
 
-    <!-- Category for Sport in Herten -->
+    <!-- Names of tour places for restaurant category -->
+    <string name="restaurant_name_opatija">Restaurant Opatija</string>
+    <string name="restaurant_name_la">La Vita Nuova</string>
+    <string name="restaurant_name_vangelis">Restaurant Vangelis</string>
+    <string name="restaurant_name_schnitzelhaus">Schnitzelhaus - Christ</string>
+
+    <!-- Addresses of tour places for restaurant category -->
+    <string name="restaurant_address_opatija">Josefstraße 27, 45699 Herten</string>
+    <string name="restaurant_address_la">Ewaldstraße 81, 45699 Herten</string>
+    <string name="restaurant_address_vangelis">Reitkamp 61, 45699 Herten</string>
+    <string name="restaurant_address_schnitzelhaus">Herner Str. 66, 45699 Herten</string>
+
+    <!-- Website of tour places for restaurant category -->
+    <string name="restaurant_website_opatija">https://goo.gl/maps/TU4waE6eVRs</string>
+    <string name="restaurant_website_la">https://goo.gl/maps/xjZ7Hv8Lx8r</string>
+    <string name="restaurant_website_vangelis">https://goo.gl/maps/51kzhBsSRgK2</string>
+    <string name="restaurant_website_schnitzelhaus">https://goo.gl/maps/GvVdz37ePEF2</string>
+
+
+    <!-- CATEGORY FOR SPORT IN HERTEN -->
     <string name="category_sport">Sport</string>
+
     <!-- Title for SportActivity -->
     <string name="title_sport">Sport</string>
 

@@ -29,13 +29,13 @@ public class DiscoverFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
-        // Create a list of tour places in this category
+        // Create a list of tour places
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Colliery mallets & Iron", "Hiberniastraße 12, 45699 Herten", R.drawable.mallet_discover, "https://goo.gl/maps/mw2v9kKgUqm" ) );
-        tours.add ( new Tour ( "Halde Hoheward", "Halde Hoheward, 45699 Herten", R.drawable.hohewald_discover, "https://goo.gl/maps/1MmpYqZBUYt" ) );
-        tours.add ( new Tour ( "Schloss Herten", "15, Im Schloßpark, 45699 Herten", R.drawable.schloss_discover, "https://goo.gl/maps/Cyg135qUvqy" ) );
-        tours.add ( new Tour ( "NEW HORIZONS - In the footsteps of time", "Werner-Heisenberg-Straße 14, 45699 Herten", R.drawable.horizon_discover, "https://goo.gl/maps/sfRDqPg7MHE2" ) );
-        tours.add ( new Tour ( "Halde Hoppenbruch", "45699 Herten", R.drawable.halde_discover, "https://goo.gl/maps/cuYHgt6NnhS2" ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.discover_name_iron ), getResources ().getString ( R.string.discover_address_iron ), R.drawable.mallet_discover, getResources ().getString ( R.string.discover_website_iron ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.discover_name_halde ), getResources ().getString ( R.string.discover_address_halde ), R.drawable.hohewald_discover, getResources ().getString ( R.string.discover_website_halde ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.discover_name_schloss ), getResources ().getString ( R.string.discover_address_schloss ), R.drawable.schloss_discover, getResources ().getString ( R.string.discover_website_schloss ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.discover_name_horizon ), getResources ().getString ( R.string.discover_address_horizon ), R.drawable.horizon_discover, getResources ().getString ( R.string.discover_website_horizon ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.discover_name_hoppen ), getResources ().getString ( R.string.discover_address_hoppen ), R.drawable.halde_discover, getResources ().getString ( R.string.discover_website_hoppen ) ) );
 
 
         // Created an {@link ArrayAdapter}, whose data source is a list of Strings.

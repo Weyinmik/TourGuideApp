@@ -31,11 +31,11 @@ public class HotelsFragment extends Fragment {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
         // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "Hotel Schloss Westerholt", "Schloßstraße 1, 45701 Herten", R.drawable.schloss_hotel, "https://goo.gl/maps/SFEeqJp3Mby" ) );
-        tours.add ( new Tour ( "ibis Styles Hotel Herten", "Resser Weg 36, 45699 Herten", R.drawable.ibis_hotel, "https://goo.gl/maps/VLS5Wd16s4t" ) );
-        tours.add ( new Tour ( "Hotel Alt Westerholt", "Schloßstraße 16, 45701 Herten", R.drawable.westerholt_hotel, "https://goo.gl/maps/4P3qimokBkF2" ) );
-        tours.add ( new Tour ( "Gasthof Altes Dorf Inh. Christian Lippemeier", "Schloßstraße 15, 45701 Herten", R.drawable.gastholf_hotel, "https://goo.gl/maps/6Ygm1AjC7SM2" ) );
-        tours.add ( new Tour ( "Hotel Fousek", "Geschwisterstraße 47, 45701 Herten", R.drawable.fousek_hotel, "https://goo.gl/maps/uKiFPZqZbw92" ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.hotel_name_schloss ), getResources ().getString ( R.string.hotel_address_schloss ), R.drawable.schloss_hotel, getResources ().getString ( R.string.hotel_website_schloss ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.hotel_name_ibis ), getResources ().getString ( R.string.hotel_address_ibis ), R.drawable.ibis_hotel, getResources ().getString ( R.string.hotel_website_ibis ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.hotel_name_alt ), getResources ().getString ( R.string.hotel_address_alt ), R.drawable.westerholt_hotel, getResources ().getString ( R.string.hotel_website_alt ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.hotel_name_gasthof ), getResources ().getString ( R.string.hotel_address_gasthof ), R.drawable.gastholf_hotel, getResources ().getString ( R.string.hotel_website_gasthof ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.hotel_name_fousek ), getResources ().getString ( R.string.hotel_address_fousek ), R.drawable.fousek_hotel, getResources ().getString ( R.string.hotel_website_fousek ) ) );
 
 
         // Creates a {@link ArrayAdapter}, for data source which is a list of Strings.

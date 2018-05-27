@@ -31,16 +31,16 @@ public class CompanyFragment extends Fragment {
         View rootView = inflater.inflate ( R.layout.tour_list, container, false );
         // Create a list of tour places in this category
         final ArrayList<Tour> tours = new ArrayList<Tour> ();
-        tours.add ( new Tour ( "PROSOZ Herten GmbH", "Ewaldstraße 261, 45699 Herten", R.drawable.prosoz, "https://goo.gl/maps/oGUc7FS1PeK2" ) );
-        tours.add ( new Tour ( "Johrendt-Bautenschutz GmbH", "Grimmstraße 6, 45701 Herten", R.drawable.johnredt, "https://goo.gl/maps/qH9Dmu6vWEJ2" ) );
-        tours.add ( new Tour ( "Spedition Wilhelm Mazurek GmbH", "Industriestraße 12B, 45699 Herten", R.drawable.william, "https://goo.gl/maps/irE87KjPJMz" ) );
-        tours.add ( new Tour ( "Autohaus Blendorf GmbH Mazda", "Schlägel-und-Eisen-Straße 36, 45701 Herten", R.drawable.auto, "https://goo.gl/maps/ucoM4UqY3w52" ) );
-        tours.add ( new Tour ( "Imperial Industrial Logistics GmbH", "Carl-Bosch-Straße 2-6, 45699 Herten", R.drawable.imperial, "https://goo.gl/maps/2j6PRFughMG2" ) );
-        tours.add ( new Tour ( "Klaeser Int’l. Fachspedition & Fahrzeugbau GmbH", "Hohewardstraße 333, 45699 Herten", R.drawable.klaser, "https://goo.gl/maps/s79jqJid7PM2" ) );
-        tours.add ( new Tour ( "Hertener Stadtwerke GmbH", "Herner Str. 21, 45699 Herten", R.drawable.stadtwerk, "https://goo.gl/maps/y184S3aqsK12" ) );
-        tours.add ( new Tour ( "Herta GmbH", "Westerholter Str. 750, 45701 Herten", R.drawable.herta, "https://goo.gl/maps/RMKMe8jUWw42" ) );
-        tours.add ( new Tour ( "Coca-Cola European Partners Germany GmbH", "Paschenbergstraße 30, 45699 Herten", R.drawable.cocacola, "https://goo.gl/maps/QWnKpjSQYB12" ) );
-        tours.add ( new Tour ( "ISRA Surface Vision GmbH", "Albert-Einstein-Allee 36-40, 45699 Herten", R.drawable.isra, "https://goo.gl/maps/syZWcpGnRcw" ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_prosoz ), getResources ().getString ( R.string.company_address_prosoz ), R.drawable.prosoz, getResources ().getString ( R.string.company_website_prosoz ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_joh ), getResources ().getString ( R.string.company_address_joh ), R.drawable.johnredt, getResources ().getString ( R.string.company_address_joh ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_spedition ), getResources ().getString ( R.string.company_address_spedition ), R.drawable.william, getResources ().getString ( R.string.company_address_spedition ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_autohaus ), getResources ().getString ( R.string.company_address_autohaus ), R.drawable.auto, getResources ().getString ( R.string.company_address_autohaus ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_imperial ), getResources ().getString ( R.string.company_address_imperial ), R.drawable.imperial, getResources ().getString ( R.string.company_address_imperial ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_klaeser ), getResources ().getString ( R.string.company_address_klaeser ), R.drawable.klaser, getResources ().getString ( R.string.company_address_klaeser ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_hertener ), getResources ().getString ( R.string.company_address_hertener ), R.drawable.stadtwerk, getResources ().getString ( R.string.company_address_hertener ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_herta ), getResources ().getString ( R.string.company_address_herta ), R.drawable.herta, getResources ().getString ( R.string.company_address_herta ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_cocacola ), getResources ().getString ( R.string.company_address_cocacola ), R.drawable.cocacola, getResources ().getString ( R.string.company_address_cocacola ) ) );
+        tours.add ( new Tour ( getResources ().getString ( R.string.company_name_isra ), getResources ().getString ( R.string.company_address_isra ), R.drawable.isra, getResources ().getString ( R.string.company_address_isra ) ) );
 
         // Creates a {@link ArrayAdapter}, for the data which is a list of Strings.
         TourAdapter adapter =
